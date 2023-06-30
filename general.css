@@ -1,0 +1,46 @@
+h1 {
+  font-family: Arial;
+}
+
+p {
+  font-family: Arial;
+}
+
+.my-name {
+  color: rgb(105, 59, 52);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.projects-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.image-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.project-desc {
+  line-height: 24px;
+}
+
+.transit-buddy-pic3 {
+  width: 160px;
+}
+
+.transit-buddy-pic1 {
+  height: 500px;
+}
+
+.transit-buddy-pic2 {
+  height: 500px;
+}
