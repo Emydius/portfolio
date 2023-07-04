@@ -5,16 +5,67 @@
   <link rel="stylesheet" href="general.css">
 </head>
 <body>
-  <h1 class="my-name">Emydius Montes</h1>
-  <p>This website is under construction and will get progressively less ugly while I polish my web dev skills.</p>
-  <div class="projects-flexbox">
-    <p class="project-title">Transit Buddy</p>
-    <div class="image-row">
-      <img class="transit-buddy-pic3" src="images/transit-buddy-icon.png">
-      <img class="transit-buddy-pic1" src="images/transit-buddy-routes-example.png">
-      <img class="transit-buddy-pic2" src="images/transit-buddy-simulator-example.jpg">
+  <div class="header">
+    <a href="index.html">Home</a>
+    <a>Projects</a>
+    <a>About Me</a>
+  </div>
+  <div class="projects-grid">
+    <div class="item-synopsis" style="background-color: lightpink;">
+      <h1 class="project-title">Emydius Montes</h1>
+      <p class="project-desc">
+        This website is under construction while I polish HTML/CSS skills. Pardon the ugliness.
+      </p>
     </div>
-    <p class="project-desc">Transit Buddy is a project I worked on in a group for Macalester's software development course. It is designed to offer the user an instant view of the positions of transit (buses/trains) nearby, focused on the Twin Cities metro area. The project is built using the Flutter multiplatform framework, and as such supports both iOS and Android with identical builds. The project code is written in Dart, which we had to learn on the fly for the project's deadline 3 months later. The app communicates with a GTFS realtime feed delivered as a protocol buffer supplied by Metro Transit. The information here is processed in our app and converted into visual elements such as bus location markers and route path highlights, and updates its information in realtime.</p>
+    <div style="background-color: lightblue;">
+      <p style="text-align: center;">Sample Art</p>
+    </div>
+    <div style="background-color: lightblue;">
+      <img class="project-art" src="images/transit-buddy-art.png">
+    </div>
+    <div class="item-synopsis" style="background-color: lightpink;">
+      <h1>Transit Buddy</h1>
+      <p class="project-desc">
+        In a team, coded backend and parts of the interface for a multiplatform iOS/Android transit app built using the Flutter framework.
+      </p>
+      <div class="github-div">
+        <p style="display: inline-block;">
+          GitHub link:       
+        </p>
+        <form action="https://github.com/redonaghy/transit_buddy">
+          <button class="github-button">
+            <img class="github-icon" src="icons/github-mark-white.svg">
+            <p style="display: inline-block;">GitHub</p>
+          </button>
+        </form>
+      </div>
+      <button>
+        Read More
+      </button>
+    </div>
+    <div class="item-synopsis" style="background-color: lightpink;">
+      <h1>GEMS Platform Training Tool</h1>
+      <p class="project-desc">
+        Collaborated with teammate and professor on tool built to make the training of an NLP recognition model quicker and more accessible.
+      </p>
+      <div class="github-div">
+        <p style="display: inline-block;">
+          GitHub link:       
+        </p>
+        <form action="https://github.com/getiria-onsongo/IaaAgDataNER">
+          <button class="github-button">
+            <img class="github-icon" src="icons/github-mark-white.svg">
+            <p style="display: inline-block;">GitHub</p>
+          </button>
+        </form>
+      </div>
+      <button>
+        Read More
+      </button>
+    </div>
+    <div style="background-color: lightblue;">
+      <img class="project-art" src="images/gems-art.png"
+    </div>
   </div>
 </body>
 </html>
